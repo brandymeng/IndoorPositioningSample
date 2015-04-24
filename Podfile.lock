@@ -1,0 +1,17 @@
+PODS:
+  - EstimoteIndoorSDK (1.3.0):
+    - EstimoteSDK (~> 2.4.0)
+  - EstimoteSDK (2.4.0)
+  - JCNotificationBannerPresenter (1.1.2)
+
+DEPENDENCIES:
+  - EstimoteIndoorSDK
+  - EstimoteSDK
+  - JCNotificationBannerPresenter
+
+SPEC CHECKSUMS:
+  EstimoteIndoorSDK: 04d18399f4c680753adbc38858e39122b644c704
+  EstimoteSDK: d130c9d111b1c0522222afc97b43f245660cbd7c
+  JCNotificationBannerPresenter: f40150961943048ed3b1d2628d29dbf66a959e21
+
+COCOAPODS: 0.35.0
