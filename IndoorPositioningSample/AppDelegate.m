@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import <Parse/Parse.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +18,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    // [Optional] Power your app with Local Datastore. For more info, go to
+    // https://parse.com/docs/ios_guide#localdatastore/iOS
+    [Parse enableLocalDatastore];
+    
+    // Initialize Parse.
+    [Parse setApplicationId:@"YqYokUjn4SrdG3EZvajR1ZKER4FMVUT3DccEqQHA"
+                  clientKey:@"1aA3FfdqioGBPjtAVWgFRse8PhGiKw1AJyLto1rH"];
+    
+    if ([UIApplication instancesRespondToSelector:@selector(registerUserNotificationSettings:)]){
+        UIUserNotificationType notificationType = UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound;
+        [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:notificationType categories:[NSSet setWithObjects:@"Cat", nil]]];
+    }
+    
     return YES;
 }
 
@@ -40,6 +55,21 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - Local notifications
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+{
+    if ([application applicationState] != UIApplicationStateActive) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"kDidReceiveLocalNotification" object:nil userInfo:notification.userInfo];
+    }
+}
+
+- (void)application:(UIApplication *)application handleActionWithIdentifier:(NSString *)identifier forLocalNotification:(UILocalNotification *)notification completionHandler:(void (^)())completionHandler
+{
+    NSLog(@"Local notification opened");
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"kDidReceiveLocalNotification" object:nil];
 }
 
 @end

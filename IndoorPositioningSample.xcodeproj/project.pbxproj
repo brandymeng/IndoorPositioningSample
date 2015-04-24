@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31A588BE06138CFD024C63F1 /* libPods-IndoorPositioningSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FD7ADBE37AE4A3D5DD9E4C /* libPods-IndoorPositioningSample.a */; };
+		487792791ADFC27E007AEE3D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487792781ADFC27E007AEE3D /* CoreBluetooth.framework */; };
+		4877927B1ADFC287007AEE3D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4877927A1ADFC287007AEE3D /* CoreLocation.framework */; };
+		487792801ADFFB80007AEE3D /* IPSStoreDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4877927F1ADFFB80007AEE3D /* IPSStoreDetailViewController.m */; };
+		487792831AE1014C007AEE3D /* IPSDiscountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 487792821AE1014C007AEE3D /* IPSDiscountViewController.m */; };
+		488218651AE6870E00B85D04 /* IPSStoresManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 488218641AE6870E00B85D04 /* IPSStoresManager.m */; };
+		488218681AE6871F00B85D04 /* IPSStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 488218671AE6871F00B85D04 /* IPSStore.m */; };
+		4882186C1AE7839300B85D04 /* IPSDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 4882186B1AE7839300B85D04 /* IPSDiscount.m */; };
 		488E731D1ADE7AF200A33491 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 488E731C1ADE7AF200A33491 /* main.m */; };
 		488E73201ADE7AF200A33491 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 488E731F1ADE7AF200A33491 /* AppDelegate.m */; };
 		488E73231ADE7AF200A33491 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 488E73221ADE7AF200A33491 /* ViewController.m */; };
@@ -14,6 +22,20 @@
 		488E73281ADE7AF200A33491 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488E73271ADE7AF200A33491 /* Images.xcassets */; };
 		488E732B1ADE7AF200A33491 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 488E73291ADE7AF200A33491 /* LaunchScreen.xib */; };
 		488E73371ADE7AF200A33491 /* IndoorPositioningSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 488E73361ADE7AF200A33491 /* IndoorPositioningSampleTests.m */; };
+		48C807AC1AE9079A005DF527 /* IPSBackendManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C807AB1AE9079A005DF527 /* IPSBackendManager.m */; };
+		48C807AE1AE90E0D005DF527 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C807AD1AE90E0D005DF527 /* Parse.framework */; };
+		48C807B01AE90E57005DF527 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C807AF1AE90E57005DF527 /* AudioToolbox.framework */; };
+		48C807B21AE90E5C005DF527 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C807B11AE90E5C005DF527 /* CFNetwork.framework */; };
+		48C807B41AE90E65005DF527 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C807B31AE90E65005DF527 /* CoreGraphics.framework */; };
+		48C807B61AE90E81005DF527 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C807B51AE90E81005DF527 /* MobileCoreServices.framework */; };
+		48C807B81AE90E88005DF527 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C807B71AE90E88005DF527 /* QuartzCore.framework */; };
+		48C807BA1AE90E8E005DF527 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C807B91AE90E8E005DF527 /* Security.framework */; };
+		48C807BC1AE90E96005DF527 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C807BB1AE90E96005DF527 /* StoreKit.framework */; };
+		48C807BE1AE90EAB005DF527 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C807BD1AE90EAB005DF527 /* SystemConfiguration.framework */; };
+		48C807C01AE90EE5005DF527 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C807BF1AE90EE5005DF527 /* libz.dylib */; };
+		48C807C21AE90F1C005DF527 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C807C11AE90F1C005DF527 /* libsqlite3.dylib */; };
+		48C807C41AE90FDD005DF527 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C807C31AE90FDD005DF527 /* Social.framework */; };
+		48C807C61AE90FE7005DF527 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C807C51AE90FE7005DF527 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +49,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F5CC971B0F9559BFDF36EFC /* Pods-IndoorPositioningSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorPositioningSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IndoorPositioningSample/Pods-IndoorPositioningSample.debug.xcconfig"; sourceTree = "<group>"; };
+		487792781ADFC27E007AEE3D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		4877927A1ADFC287007AEE3D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4877927E1ADFFB80007AEE3D /* IPSStoreDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPSStoreDetailViewController.h; sourceTree = "<group>"; };
+		4877927F1ADFFB80007AEE3D /* IPSStoreDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPSStoreDetailViewController.m; sourceTree = "<group>"; };
+		487792811AE1014C007AEE3D /* IPSDiscountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPSDiscountViewController.h; sourceTree = "<group>"; };
+		487792821AE1014C007AEE3D /* IPSDiscountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPSDiscountViewController.m; sourceTree = "<group>"; };
+		488218631AE6870E00B85D04 /* IPSStoresManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPSStoresManager.h; sourceTree = "<group>"; };
+		488218641AE6870E00B85D04 /* IPSStoresManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPSStoresManager.m; sourceTree = "<group>"; };
+		488218661AE6871F00B85D04 /* IPSStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPSStore.h; sourceTree = "<group>"; };
+		488218671AE6871F00B85D04 /* IPSStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPSStore.m; sourceTree = "<group>"; };
+		4882186A1AE7839300B85D04 /* IPSDiscount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPSDiscount.h; sourceTree = "<group>"; };
+		4882186B1AE7839300B85D04 /* IPSDiscount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPSDiscount.m; sourceTree = "<group>"; };
 		488E73171ADE7AF200A33491 /* IndoorPositioningSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndoorPositioningSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		488E731B1ADE7AF200A33491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		488E731C1ADE7AF200A33491 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +75,23 @@
 		488E73301ADE7AF200A33491 /* IndoorPositioningSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndoorPositioningSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		488E73351ADE7AF200A33491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		488E73361ADE7AF200A33491 /* IndoorPositioningSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndoorPositioningSampleTests.m; sourceTree = "<group>"; };
+		48C807AA1AE9079A005DF527 /* IPSBackendManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPSBackendManager.h; sourceTree = "<group>"; };
+		48C807AB1AE9079A005DF527 /* IPSBackendManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPSBackendManager.m; sourceTree = "<group>"; };
+		48C807AD1AE90E0D005DF527 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		48C807AF1AE90E57005DF527 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		48C807B11AE90E5C005DF527 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		48C807B31AE90E65005DF527 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48C807B51AE90E81005DF527 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		48C807B71AE90E88005DF527 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		48C807B91AE90E8E005DF527 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		48C807BB1AE90E96005DF527 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		48C807BD1AE90EAB005DF527 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		48C807BF1AE90EE5005DF527 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		48C807C11AE90F1C005DF527 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		48C807C31AE90FDD005DF527 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		48C807C51AE90FE7005DF527 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		48FD7ADBE37AE4A3D5DD9E4C /* libPods-IndoorPositioningSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IndoorPositioningSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDD623354200D35F3B87005 /* Pods-IndoorPositioningSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorPositioningSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-IndoorPositioningSample/Pods-IndoorPositioningSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +99,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48C807C61AE90FE7005DF527 /* Accounts.framework in Frameworks */,
+				48C807C41AE90FDD005DF527 /* Social.framework in Frameworks */,
+				48C807C21AE90F1C005DF527 /* libsqlite3.dylib in Frameworks */,
+				48C807C01AE90EE5005DF527 /* libz.dylib in Frameworks */,
+				48C807BE1AE90EAB005DF527 /* SystemConfiguration.framework in Frameworks */,
+				48C807BC1AE90E96005DF527 /* StoreKit.framework in Frameworks */,
+				48C807BA1AE90E8E005DF527 /* Security.framework in Frameworks */,
+				48C807B81AE90E88005DF527 /* QuartzCore.framework in Frameworks */,
+				48C807B61AE90E81005DF527 /* MobileCoreServices.framework in Frameworks */,
+				4877927B1ADFC287007AEE3D /* CoreLocation.framework in Frameworks */,
+				48C807B41AE90E65005DF527 /* CoreGraphics.framework in Frameworks */,
+				48C807B21AE90E5C005DF527 /* CFNetwork.framework in Frameworks */,
+				48C807B01AE90E57005DF527 /* AudioToolbox.framework in Frameworks */,
+				487792791ADFC27E007AEE3D /* CoreBluetooth.framework in Frameworks */,
+				48C807AE1AE90E0D005DF527 /* Parse.framework in Frameworks */,
+				31A588BE06138CFD024C63F1 /* libPods-IndoorPositioningSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +128,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E1D399CA466F526C09DC14C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48C807C51AE90FE7005DF527 /* Accounts.framework */,
+				48C807C31AE90FDD005DF527 /* Social.framework */,
+				48C807C11AE90F1C005DF527 /* libsqlite3.dylib */,
+				48C807BF1AE90EE5005DF527 /* libz.dylib */,
+				48C807BD1AE90EAB005DF527 /* SystemConfiguration.framework */,
+				48C807BB1AE90E96005DF527 /* StoreKit.framework */,
+				48C807B91AE90E8E005DF527 /* Security.framework */,
+				48C807B71AE90E88005DF527 /* QuartzCore.framework */,
+				48C807B51AE90E81005DF527 /* MobileCoreServices.framework */,
+				48C807B31AE90E65005DF527 /* CoreGraphics.framework */,
+				48C807B11AE90E5C005DF527 /* CFNetwork.framework */,
+				48C807AF1AE90E57005DF527 /* AudioToolbox.framework */,
+				48C807AD1AE90E0D005DF527 /* Parse.framework */,
+				4877927A1ADFC287007AEE3D /* CoreLocation.framework */,
+				487792781ADFC27E007AEE3D /* CoreBluetooth.framework */,
+				48FD7ADBE37AE4A3D5DD9E4C /* libPods-IndoorPositioningSample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		488218601AE6866300B85D04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				488E73211ADE7AF200A33491 /* ViewController.h */,
+				488E73221ADE7AF200A33491 /* ViewController.m */,
+				4877927E1ADFFB80007AEE3D /* IPSStoreDetailViewController.h */,
+				4877927F1ADFFB80007AEE3D /* IPSStoreDetailViewController.m */,
+				487792811AE1014C007AEE3D /* IPSDiscountViewController.h */,
+				487792821AE1014C007AEE3D /* IPSDiscountViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		488218611AE6866B00B85D04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		488218621AE6867300B85D04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				488218631AE6870E00B85D04 /* IPSStoresManager.h */,
+				488218641AE6870E00B85D04 /* IPSStoresManager.m */,
+				488218661AE6871F00B85D04 /* IPSStore.h */,
+				488218671AE6871F00B85D04 /* IPSStore.m */,
+				4882186A1AE7839300B85D04 /* IPSDiscount.h */,
+				4882186B1AE7839300B85D04 /* IPSDiscount.m */,
+				48C807AA1AE9079A005DF527 /* IPSBackendManager.h */,
+				48C807AB1AE9079A005DF527 /* IPSBackendManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		488E730E1ADE7AF100A33491 = {
 			isa = PBXGroup;
 			children = (
 				488E73191ADE7AF200A33491 /* IndoorPositioningSample */,
 				488E73331ADE7AF200A33491 /* IndoorPositioningSampleTests */,
 				488E73181ADE7AF200A33491 /* Products */,
+				A1CEB804F20A9C07B24D323E /* Pods */,
+				1E1D399CA466F526C09DC14C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +209,11 @@
 		488E73191ADE7AF200A33491 /* IndoorPositioningSample */ = {
 			isa = PBXGroup;
 			children = (
+				488218621AE6867300B85D04 /* Model */,
+				488218611AE6866B00B85D04 /* View */,
+				488218601AE6866300B85D04 /* Controller */,
 				488E731E1ADE7AF200A33491 /* AppDelegate.h */,
 				488E731F1ADE7AF200A33491 /* AppDelegate.m */,
-				488E73211ADE7AF200A33491 /* ViewController.h */,
-				488E73221ADE7AF200A33491 /* ViewController.m */,
 				488E73241ADE7AF200A33491 /* Main.storyboard */,
 				488E73271ADE7AF200A33491 /* Images.xcassets */,
 				488E73291ADE7AF200A33491 /* LaunchScreen.xib */,
@@ -119,6 +248,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A1CEB804F20A9C07B24D323E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F5CC971B0F9559BFDF36EFC /* Pods-IndoorPositioningSample.debug.xcconfig */,
+				7EDD623354200D35F3B87005 /* Pods-IndoorPositioningSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 488E733A1ADE7AF200A33491 /* Build configuration list for PBXNativeTarget "IndoorPositioningSample" */;
 			buildPhases = (
+				A1AA0FC9E0FF69426E66268A /* Check Pods Manifest.lock */,
 				488E73131ADE7AF200A33491 /* Sources */,
 				488E73141ADE7AF200A33491 /* Frameworks */,
 				488E73151ADE7AF200A33491 /* Resources */,
+				263A0B92AA77E51DBF30E2B7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +354,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		263A0B92AA77E51DBF30E2B7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndoorPositioningSample/Pods-IndoorPositioningSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1AA0FC9E0FF69426E66268A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		488E73131ADE7AF200A33491 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				488E73231ADE7AF200A33491 /* ViewController.m in Sources */,
+				487792801ADFFB80007AEE3D /* IPSStoreDetailViewController.m in Sources */,
+				488218651AE6870E00B85D04 /* IPSStoresManager.m in Sources */,
+				488218681AE6871F00B85D04 /* IPSStore.m in Sources */,
+				48C807AC1AE9079A005DF527 /* IPSBackendManager.m in Sources */,
 				488E73201ADE7AF200A33491 /* AppDelegate.m in Sources */,
+				4882186C1AE7839300B85D04 /* IPSDiscount.m in Sources */,
 				488E731D1ADE7AF200A33491 /* main.m in Sources */,
+				487792831AE1014C007AEE3D /* IPSDiscountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,20 +524,98 @@
 		};
 		488E733B1ADE7AF200A33491 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F5CC971B0F9559BFDF36EFC /* Pods-IndoorPositioningSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = IndoorPositioningSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-l\"EstimoteIndoorSDK\"",
+					"-l\"EstimoteSDK\"",
+					"-l\"Pods-IndoorPositioningSample-EstimoteIndoorSDK\"",
+					"-l\"Pods-IndoorPositioningSample-EstimoteSDK\"",
+					"-l\"Pods-IndoorPositioningSample-JCNotificationBannerPresenter\"",
+					"-l\"c++\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		488E733C1ADE7AF200A33491 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EDD623354200D35F3B87005 /* Pods-IndoorPositioningSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = IndoorPositioningSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-l\"EstimoteIndoorSDK\"",
+					"-l\"EstimoteSDK\"",
+					"-l\"Pods-IndoorPositioningSample-EstimoteIndoorSDK\"",
+					"-l\"Pods-IndoorPositioningSample-EstimoteSDK\"",
+					"-l\"Pods-IndoorPositioningSample-JCNotificationBannerPresenter\"",
+					"-l\"c++\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -416,6 +673,7 @@
 				488E733C1ADE7AF200A33491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		488E733D1ADE7AF200A33491 /* Build configuration list for PBXNativeTarget "IndoorPositioningSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +682,7 @@
 				488E733F1ADE7AF200A33491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
